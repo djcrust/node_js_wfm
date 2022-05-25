@@ -1,5 +1,4 @@
 const { json } = require('express/lib/response')
-const databaseList = require('../../database/database_list')
 const pool = require('../../database/database')
 
 const getUsers = async (request, response) => {
